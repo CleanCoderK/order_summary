@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/green-cyber/order_summary_component)
-- Live Site URL: [live site URL here](https://green-cyber.github.io/order_summary_component/)
+- Solution URL: [solution URL here](https://github.com/green-cyber/order_summary)
+- Live Site URL: [live site URL here](https://green-cyber.github.io/order_summary/)
 
 ## My process
 
