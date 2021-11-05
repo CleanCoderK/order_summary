@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+  --pale-blue: hsl(225, 100%, 94%);
+  --pale-blue: yellow;
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 97%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+button{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 20px;
+  max-width: 23rem;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media screen and (max-width: 375px){
+  .container{
+    max-width: 23rem;
+    width: 90%;
+  }
+}
+
+.container img{
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body{
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.card-body h1{
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.card-body p{
+  line-height: 1.5rem;
+  padding: 0 2rem;
+}
+
+.card-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+  margin: 0 1rem;
+  padding: 0.5rem 2rem;
+}
+
+.card-plan{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-plan img{
+  padding-right: 1rem;
+}
+
+.card-plan h4{
+  font-weight: 700;
+}
+
+.card-section > p{
+  color: var(--bright-blue);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.buttons{
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-payment{
+  margin: 0 3rem;
+  padding: 0.5rem 0;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--bright-blue);
+}
+
+.btn-order{
+  margin: 1.5rem 3rem;
+  padding: 0.5rem 0;
+  border: none;
+  color: var(--desaturated-blue);
+  font-weight: lighter;
+  background: white;
+}

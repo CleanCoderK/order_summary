@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <title>Frontend Mentor | Order summary card</title>
+  <style>
+    body{
+      background: url(./images/pattern-background-desktop.svg) no-repeat;
+      z-index: -1;
+      background-color: hsl(225, 100%, 94%);
+    }
+    @media screen and (max-width: 375px){
+      body{
+        background: url(./images/pattern-background-mobile.svg) no-repeat;
+        z-index: -1;
+        background-color: hsl(225, 100%, 94%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="container">
+
+      <img src="./images/illustrationHero.svg" alt="hero">
+
+      <div class="card-body">
+        <h1>Order Summary</h1>
+
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!
+        </p>
+      </div>
+
+      <div class="card-section">
+        <section class="card-plan">
+          <img src="./images/icon-music.svg" alt="music-icon">
+          <div>
+            <h4>Annual Plan</h4>
+            <p>$59.99/year</p>
+          </div>
+        </section>
+        <p>
+          Change
+        </p>
+      </div>
+
+      <div class="buttons">
+        <button class="btn-payment">Proceed to Payment</button>
+        <button class="btn-order">Cancel Order</button>
+      </div>
+    </div>
+
+
+</body>
+</html>
